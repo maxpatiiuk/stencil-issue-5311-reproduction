@@ -25,14 +25,11 @@ Reproduction for https://github.com/ionic-team/stencil/issues/5306 and https://g
 
 4. Return back the `type Element = VNode;` line in [src/declarations.d.ts](src/declarations.d.ts)
 
-5. See that ESlint errors are fixed (depending on the IDE, yuo might have to restart the IDE)
+5. See that ESlint errors are fixed (depending on the IDE, you might have to restart the IDE)
 
-# Stencil Issue 5311 reproduction
+## Stencil Issue 5311 reproduction
 
-Reproduction for https://github.com/ionic-team/stencil/issues/5311.
-
-2. See src/declarations.d.ts - that file fixes Stencil typings as per
-   https://github.com/ionic-team/stencil/issues/5306
+2. Return back the `type Element = VNode;` line in [src/declarations.d.ts](src/declarations.d.ts) - to be as it when repository was checked out
 
 3. That uncovers further errors with Stencil typings. See TypeScript
    errors in [src/components/my-component/my-component.tsx](src/components/my-component/my-component.tsx)
